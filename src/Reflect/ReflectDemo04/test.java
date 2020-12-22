@@ -1,4 +1,4 @@
-package reflect.ReflectDemo04;
+package Reflect.ReflectDemo04;
 
 import java.io.InputStream;
 import java.lang.reflect.Method;
@@ -7,7 +7,7 @@ import java.util.Properties;
 /**
  * @Author: lxy
  * @Date: 2020/12/21
- * @Description: reflect.ReflectDemo04
+ * @Description: Reflect.ReflectDemo04
  * @Version: 1.0
  */
 public class test {
@@ -20,7 +20,7 @@ public class test {
         //1.2.1获取类加载器，在载入内存的时候，是由加载器载入的，加载器里有此项目所有文件的记录
         ClassLoader classLoader = test.class.getClassLoader();
         //1.2.2获取配置文件路劲的输入流,要输入配置文件全类名
-        InputStream resourceAsStream = classLoader.getResourceAsStream("reflect/ReflectDemo04/pro.properties");
+        InputStream resourceAsStream = classLoader.getResourceAsStream("Reflect/ReflectDemo04/pro.properties");
         //1.2.3加载配置文件
         properties.load(resourceAsStream);
 

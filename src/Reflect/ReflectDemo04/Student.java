@@ -1,9 +1,9 @@
-package reflect.ReflectDemo04;
+package Reflect.ReflectDemo04;
 
 /**
  * @Author: lxy
  * @Date: 2020/12/21
- * @Description: reflect.ReflectDemo04
+ * @Description: Reflect.ReflectDemo04
  * @Version: 1.0
  */
 public class Student {

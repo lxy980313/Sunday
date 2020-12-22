@@ -1,9 +1,9 @@
-package reflect.ReflectDemo02;
+package Reflect.ReflectDemo02;
 
 /**
  * @Author: lxy
  * @Date: 2020/12/20
- * @Description: reflect.ReflectDemo02
+ * @Description: Reflect.ReflectDemo02
  * @Version: 1.0
  */
 

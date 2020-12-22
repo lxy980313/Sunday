@@ -1,13 +1,12 @@
-package reflect.ReflectDemo03;
+package Reflect.ReflectDemo03;
 
-import reflect.ReflectDemo01.Person;
-
+import Reflect.ReflectDemo01.Person;
 import java.lang.reflect.Field;
 
 /**
  * @Author: lxy
  * @Date: 2020/12/20
- * @Description: reflect.ReflectDemo03
+ * @Description: Reflect.ReflectDemo03
  * @Version: 1.0
  */
 
@@ -34,7 +33,7 @@ public class Demo01 {
         Field[] fields = personClass.getFields();
         for (Field field :fields){
             //public String a;
-            System.out.println(field);//public java.lang.String reflect.ReflectDemo01.Person.a
+            System.out.println(field);//public java.lang.String Reflect.ReflectDemo01.Person.a
         }
 
         System.out.println("-------");

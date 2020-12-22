@@ -1,9 +1,9 @@
-package reflect.ReflectDemo04;
+package Reflect.ReflectDemo04;
 
 /**
  * @Author: lxy
  * @Date: 2020/12/20
- * @Description: reflect.ReflectDemo01
+ * @Description: Reflect.ReflectDemo01
  * @Version: 1.0
  */
 //实体类：pojo或者entity
