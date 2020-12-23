@@ -14,5 +14,5 @@ import java.lang.annotation.Target;
 
 @Target(value = {ElementType.TYPE, ElementType.METHOD, ElementType.FIELD}) //规定用的位置
 @Retention(value = RetentionPolicy.RUNTIME)
-public @interface MyAnn01 {
+public @interface Ann02_MyAnn01 {
 }

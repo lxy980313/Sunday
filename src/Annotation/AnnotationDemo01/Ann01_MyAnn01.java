@@ -6,7 +6,7 @@ package Annotation.AnnotationDemo01;
  * @Description: Annotation.AnnotationDemo01
  * @Version: 1.0
  */
-public @interface MyAnn01 {
+public @interface Ann01_MyAnn01 {
     /*
         接口里能定义的，注解里也能
         注解属性：接口中的抽象方法
@@ -24,7 +24,7 @@ public @interface MyAnn01 {
 
     public String name();
 
-    MyAnn02 myann02();
+    Ann01_MyAnn02 myann02();
 
     String[] str();
 

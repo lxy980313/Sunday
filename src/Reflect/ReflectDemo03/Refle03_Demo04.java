@@ -9,7 +9,7 @@ import Reflect.ReflectDemo01.Person;
  * @Description: Reflect.ReflectDemo03
  * @Version: 1.0
  */
-public class Demo04 {
+public class Refle03_Demo04 {
 
     public static void main(String[] args) {
         //1.获取Person类的Class类对象

@@ -17,7 +17,7 @@ import java.lang.annotation.Target;
  */
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
-public @interface MyAnn01 {
+public @interface Ann03_MyAnn01 {
 
     String className();
 

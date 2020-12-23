@@ -6,7 +6,7 @@ package Annotation.AnnotationDemo01;
  * @Description: Annotation.AnnotationDemo01
  * @Version: 1.0
  */
-@MyAnn01(age = 20,name = "张三",myann02 = @MyAnn02,str = {})
-public class Demo01 {
+@Ann01_MyAnn01(age = 20,name = "张三",myann02 = @Ann01_MyAnn02,str = {})
+public class Ann01_Demo01 {
 
 }

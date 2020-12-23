@@ -6,8 +6,8 @@ package Annotation.AnnotationDemo03;
  * @Description: Annotation.AnnotationDemo03
  * @Version: 1.0
  */
-public class Demo01 {
+public class Ann03_Demo02 {
     public void show(){
-        System.out.println("Demo01 show..");
+        System.out.println("Ann03_Demo02 show..");
     }
 }

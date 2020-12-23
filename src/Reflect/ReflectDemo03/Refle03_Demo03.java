@@ -18,7 +18,7 @@ import java.lang.reflect.Constructor;
         * Constructor<T> getDeclaredConstructor(类<?>... parameterTypes)
         * Constructor<?>[] getDeclaredConstructors()
  */
-public class Demo03 {
+public class Refle03_Demo03 {
 
     public static void main(String[] args) throws Exception {
         //1.获取Person类的Class类对象

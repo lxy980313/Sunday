@@ -11,7 +11,7 @@
 >linking的过程包括：Verification（验证）、Preparation（准备）和Resolution（解析）
 >>Verification（验证）：验证被加载后的类是否有正确的结构，类数据是否会符合虚拟机的要求，确保不会危害虚拟机安全。
 
->>Verification（验证）：为类的静态变量（static filed）在方法区分配内存，并赋默认初值（0值或null值）。如static int a = 100;
+>>Preparation（准备）：为类的静态变量（static filed）在方法区分配内存，并赋默认初值（0值或null值）。如static int a = 100;
         静态变量a就会在准备阶段被赋默认值0。
         
 >>Resolution（解析）：将类的二进制数据中的符号引用换为直接引用。

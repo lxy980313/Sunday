@@ -8,12 +8,12 @@ package Reflect.ReflectDemo02;
  */
 
 /*
-    Demo01 ---> Class
+    rDemo01 ---> Class
     filed ---> Filed
     method ---> Method
     constructor ---> Constructor
  */
-public class Demo01 {
+public class Refle02_Demo01 {
 
     class filed{
 

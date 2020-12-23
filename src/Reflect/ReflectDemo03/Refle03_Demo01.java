@@ -17,7 +17,7 @@ import java.lang.reflect.Field;
         * Field getDeclaredField(String name)
         * Field[] getDeclaredFields()
  */
-public class Demo01 {
+public class Refle03_Demo01 {
 
     public static void main(String[] args) throws Exception {
         //1.获取Person类的Class类对象
@@ -33,7 +33,7 @@ public class Demo01 {
         Field[] fields = personClass.getFields();
         for (Field field :fields){
             //public String a;
-            System.out.println(field);//public java.lang.String Reflect.ReflectDemo01.Person.a
+            System.out.println(field);//public java.lang.String Reflect.rDemo01.Person.a
         }
 
         System.out.println("-------");

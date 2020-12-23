@@ -3,16 +3,16 @@ package Reflect.ReflectDemo01;
 /**
  * @Author: lxy
  * @Date: 2020/12/20
- * @Description: Reflect.ReflectDemo01
+ * @Description: Reflect.rDemo01
  * @Version: 1.0
  */
-public class ReflectDemo01 {
+public class Refle01_Demo01 {
     public static void main(String[] args) throws ClassNotFoundException {
         Person person = new Person();
         //对应代码的第一个阶段，通过代码的全类名，将代码的字节码信息加载到内存当中
         //多用于配置文件中
         Class<?> c1 = Class.forName("Reflect.ReflectDemo01.Person");
-        System.out.println(c1);//class Reflect.ReflectDemo01.Person
+        System.out.println(c1);//class Reflect.rDemo01.Person
 
         //对应代码的第二个阶段，此时代码的字节码信息已经加载到内存当中，通过类名.class
         //多用于参数传递

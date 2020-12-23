@@ -17,7 +17,7 @@ import java.lang.reflect.Method;
         * Method getDeclaredMethod(String name, 类<?>... parameterTypes)
         * Method[] getDeclaredMethods()
  */
-public class Demo02 {
+public class Refle03_Demo02 {
 
     public static void main(String[] args) throws Exception {
         //1.获取Person类的Class类对象

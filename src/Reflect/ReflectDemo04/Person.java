@@ -3,7 +3,7 @@ package Reflect.ReflectDemo04;
 /**
  * @Author: lxy
  * @Date: 2020/12/20
- * @Description: Reflect.ReflectDemo01
+ * @Description: Reflect.rDemo01
  * @Version: 1.0
  */
 //实体类：pojo或者entity

@@ -9,7 +9,7 @@ import java.lang.reflect.Method;
  * @Version: 1.0
  */
 
-@MyAnn01(className = "Annotation.AnnotationDemo03.Demo01",methodName = "show")
+@Ann03_MyAnn01(className = "Annotation.AnnotationDemo03.Ann03_Demo01",methodName = "show")
 public class test {
     /*
         在不改变任何代码的情况下，创建任意类对象，并执行其中的方法
@@ -22,9 +22,9 @@ public class test {
     //1.2获取注解
         //生成了一个该注解接口的子类实例对象，如下
     /*
-        public class MyAnn01Impl implements MyAnn01{
+        public class MyAnn01Impl implements Ann01_MyAnn01{
             public String className(){
-                return "Annotation.AnnotationDemo03.Demo01";
+                return "Annotation.AnnotationDemo03.rDemo01";
             }
 
         public String methodName(){
@@ -33,7 +33,7 @@ public class test {
         }
      */
 
-    MyAnn01 annotation = testClass.getAnnotation(MyAnn01.class);
+    Ann03_MyAnn01 annotation = testClass.getAnnotation(Ann03_MyAnn01.class);
     //1.3调用注解对象中定义的抽象方法，获取返回值
     String className = annotation.className();
         System.out.println(className);

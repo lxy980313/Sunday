@@ -6,5 +6,5 @@ package Annotation.AnnotationDemo01;
  * @Description: Annotation.AnnotationDemo01
  * @Version: 1.0
  */
-public @interface MyAnn02 {
+public @interface Ann01_MyAnn02 {
 }
