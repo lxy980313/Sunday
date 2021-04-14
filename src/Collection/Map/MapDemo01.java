@@ -27,7 +27,7 @@ public class MapDemo01 {
         System.out.println(a1);//"一"，表示key值重复，并且用“1”替换了“一”
 
         System.out.println("------");
-
+        System.out.println();
         String a3 = map.remove(1);//删除指定key的键值对,返回该key值对应的value
         boolean b = map.remove(2, "二");//删除指定的key-value，返回一个bool表示是否删除成功
         System.out.println(a3);//1

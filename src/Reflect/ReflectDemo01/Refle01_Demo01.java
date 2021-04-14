@@ -21,7 +21,7 @@ public class Refle01_Demo01 {
 
         //对应代码的第三个阶段，此时已生成实例对象，根据实例对象的方法.getClass()获取
         //多用于对象的字节码获取
-        Class<?> c3 = person.getClass();
+        Class<? extends Person> c3 = person.getClass();
         System.out.println(c3);
 
         System.out.println(c1 == c2);//true
